@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+    <head>
+        <meta charset="utf-8">
+        <title>Guitinnin Foot</title>
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+       
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/styele.css" />
+<!--     styles -->
+       
+    </head>
+    <body data-spy="scroll" data-target="#navbar-menu" data-offset="100">
+ <!--debut Précharge -->
+     
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_four"></div>
+                    <div class="object" id="object_five"></div>
+                    <div class="object" id="object_six"></div>
+                    <div class="object" id="object_seven"></div>
+                    <div class="object" id="object_eight"></div>
+                    <div class="object" id="object_big"></div>
+                </div>
+            </div>
+        </div>
+        <!--debut Précharge -->
+        
+         <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target="#monMenu" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    
+                    </button>
+                <a href="" class="navbar-brand">GUITINNIN FOOT</a>
+            </div>
+                
+            <div id="monMenu">
+              <ul class="nav navbar-nav">
+                <li><a href="#accueil">Accueil</a></li>
+                  <li>
+                
+                  
+                  
+                  
+                  </li>
+                  <li><a href="#contact">Contact</a></li>
+                  
+            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                
+                <li> <a href=""><span class="glyphicon glyphicon-log-in">Login</span></a></li>
+                
+                </ul>
+          </div>
+        </div>
+    </nav>
+    
+       
+        <header id="hello">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="banner">
+                            <h3>-Apprendre a prepare sur-</h3>
+                            <h1>GUITINNIN 100% BURGER </h1>
+
+                            <div class="">
+                                <div class="">
+                                    
+                                    <p style="font-size:30px;">Le meilleur  Burger que vous pouvez voir en côte   </p>							
+                                </div>
+                                <div class="stamp">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-2">
+                    <img src="images/oeuf.png" class="img-responsive" style="margin-top: 32px;">
+                </div>
+              
+            </div>
+            <p class="caption">*Temps limité seulement</p>
+        </header>
+       
+       <br><br>
+            
+    
+            
+            
+  <div class="container">         
+ <button id="modal3" type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">PREPARATION</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade up" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: blue">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color: #fff; font-size: 30px">Les etapes de préparation</h4>
+      </div>
+      <div class="modal-body">
+        
+<span class="etape">ÉTAPE 1 :</span>
+<p>Dans une poêle, faire cuire les steaks avec la moitié de l'oignon émincé finement. Saler, poivrer.</p class="p2">
+
+<span class="etape">ÉTAPE 2 :</span>
+<p>Après quelques minutes, retourner les steaks et faire griller l'autre face.</p>
+
+<span class="etape">ÉTAPE 3 :</span>
+<p>Pendant ce temps, mettre les pains sous le grill du four.</p>
+
+<span class="etape">ÉTAPE 4 :</span>
+<p>Quand les steaks sont cuits, retirer du feu et mettre les tranches de fromage à fondre sur les steaks.</p>
+
+<span class="etape">ÉTAPE 5 :</span>
+<p>Une fois les pains légèrement grillés, les tartiner de ketchup (ou mayonnaise), y disposer la salade, quelques rondelles de tomates, quelques fines tranches de concombre et d'oignons frais. Déposer par dessus les steaks et les oignons fondus.</p>
+
+<span class="etape">ÉTAPE 6 :</span>
+<p>Recouvrir avec la partie supérieure du pain et servir aussitôt.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>  
+      
+  </div>     
+      
+                                 
+ <button id="modal4" type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal">Liste des Ingrédients</button>
+
+<!-- Modal -->
+<div id="Modal" class="modal fade in" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Les Ingrédients</h4>
+      </div>
+              <div class="modal-body">
+              <p style="color: black">
+                2 pains spécial burger<br>
+                2 steaks hâchés<br>
+                8 fines tranches de concombre<br>
+                6 fines rondelles de tomates<br>
+                Quelques feuilles de salade<br>
+                1 oignon<br>
+                2 tranches (4 pour les gourmands !) de fromage fondu<br>
+                Ketchup (ou mayonnaise)</p><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <button id="modal5" type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#Modal5">Posez une question</button>
+
+<!-- Modal -->
+<div id="Modal5" class="modal fade in" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Que voulez-vous savoir ?</h4>
+      </div>
+            
+           <div class="panel">
+    <div class="panel-heading">
+  
+    </div>
+  <div class="panel-body">
+
+        
+    
+    <div class="row">
+    <div class="col-md-6" id="col">
+   <form>
+       <label for="nom">Nom & Prénom:</label>
+    <input type="text" class='form-control' id="name" name="name" placeholder="Entrer votre nom" required>
+       
+    <label for="prenom">Votre question</label>
+       <textarea type="text" class='form-control' id="message" name="message" placeholder="votre speudo" required></textarea>
+        
+    
+   
+       
+  </div>
+</div>
+      
+        </div>
+        
+        
+        
+        
+      </div>
+      <div class="modal-footer">
+           <input type="submit" value="ENVOYER"  class="btn btn-success">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+           </form> 
+      </div>
+    </div>
+
+  </div>
+</div>   
+            
+     <button id="modal5" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Modal6">Liste des questions</button>
+
+<!-- Modal -->
+<div id="Modal6" class="modal fade in" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Que voulez-vous savoir ?</h4>
+      </div>
+            
+           <div class="panel">
+    <div class="panel-heading">
+  
+    </div>
+  <div class="panel-body">
+  
+    <div class="row">
+     <div class="col-md-3" id="col">
+    
+    <h3>Nom</h3>
+
+    <%noms.forEach(function(result){ %>
+    <%=result.name%>
+         <hr>
+      <br>
+  <% }); %>
+         
+         
+         
+     </div>
+    
+    <div class="col-md-4" id="col">
+    <h3>Question</h3>
+    <%noms.forEach(function(result){ %>
+    <%=result.message%>
+    <hr>
+      <br>
+  <% }); %>
+        </div>
+        
+    <div class="col-md-5" id="col">
+    <h3>Réponses</h3>
+    <%noms.forEach(function(result){ %>
+    <%=result.message%>
+    <hr>
+      <br>
+  <% }); %>
+        </div>
+    </div>
+      
+        </div>
+        
+        
+        
+        
+      </div>
+      <div class="modal-footer">
+          
+          
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+             
+      </div>
+    </div>
+
+  </div>
+</div> 
+            
+ 
+    
+        <section id="block">
+            <div class="container">
+
+              
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="feature">
+                            <div class="shack_burger">
+                                <div class="chicken">
+                                    <img src="images/chicken.png" alt="Chicken" />
+                                </div>
+
+                                
+                                <h2> Faire du burger en 15min avec Guitinnin foot </h2>
+                                <p> </ p>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="signature">
+                            <div class="shape">
+                                <span class=""><strong>GUITINNIN</strong></span>
+                                <p>100% ivoirien</p>
+                              
+                            </div>
+                            <div class="signature_content">
+                                <p> C'était un secret mais plus maintenant! Notre hommage au roi est une galette de boeuf au cheddar, </ p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="classic">
+                            
+ <button  type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#Modal">Liste des Ingrédients</button>
+
+<!-- Modal -->
+<div id="Modal" class="modal fade in" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Les Ingrédients</h4>
+      </div>
+              <div class="modal-body">
+              <p style="color: black">
+                2 pains spécial burger<br>
+                2 steaks hâchés<br>
+                8 fines tranches de concombre<br>
+                6 fines rondelles de tomates<br>
+                Quelques feuilles de salade<br>
+                1 oignon<br>
+                2 tranches (4 pour les gourmands !) de fromage fondu<br>
+                Ketchup (ou mayonnaise)</p><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+                            
+  <button id="modal2" type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">PREPARATION</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade in" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: blue">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color: #fff; font-size: 30px">Les etapes de préparation</h4>
+      </div>
+      <div class="modal-body">
+        
+<span class="etape">ÉTAPE 1 :</span>
+<p>Dans une poêle, faire cuire les steaks avec la moitié de l'oignon émincé finement. Saler, poivrer.</p class="p2">
+
+<span class="etape">ÉTAPE 2 :</span>
+<p>Après quelques minutes, retourner les steaks et faire griller l'autre face.</p>
+
+<span class="etape">ÉTAPE 3 :</span>
+<p>Pendant ce temps, mettre les pains sous le grill du four.</p>
+
+<span class="etape">ÉTAPE 4 :</span>
+<p>Quand les steaks sont cuits, retirer du feu et mettre les tranches de fromage à fondre sur les steaks.</p>
+
+<span class="etape">ÉTAPE 5 :</span>
+<p>Une fois les pains légèrement grillés, les tartiner de ketchup (ou mayonnaise), y disposer la salade, quelques rondelles de tomates, quelques fines tranches de concombre et d'oignons frais. Déposer par dessus les steaks et les oignons fondus.</p>
+
+<span class="etape">ÉTAPE 6 :</span>
+<p>Recouvrir avec la partie supérieure du pain et servir aussitôt.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>                           
+                            
+                            
+                            
+                            
+                            
+                            
+         
+                            <div class="overlay">
+                                <h3>Les Ingrédients pour preparer le burger</h3>
+                               
+
+                                <p class="overlay_content">.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        
+                        <div id="small_carousel" class="carousel slide" data-ride="carousel">
+                            
+                            <ol class="carousel-indicators">
+                                <li data-target="#small_carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#small_carousel" data-slide-to="1"></li>
+                                <li data-target="#small_carousel" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-caption">
+                                <h3>
+                                    
+                                    Les etapes de Préparation du burger
+</h3>
+                                <hr/>
+                                <br>   <br>  <br>  
+   
+                               
+                                <h5><span class="etape">ÉTAPE 1 :</span>  <br>
+                                     Dans une poêle, faire cuire les<br> steaks avec la moitié de l'oignon émincé <br>finement. Saler, poivrer.</h5>
+                                        
+<!--
+                                    <li><span class="flaticon flaticon-carbohydrate"></span> <p><span class="etape">ÉTAPE 2 :</span> 
+                                        Après quelques minutes,<br> retourner les steaks et faire <br>griller l'autre face.</p>
+-->
+                                        
+                                   
+                                
+<!--
+                                <div class="info_btn_shadow">
+
+                                    
+                                    
+                                    
+                                    
+                                    <a href="" class="info_btn">PREPARATION</a>
+                                </div>
+-->
+                            </div>
+
+                            <!-- carousel inner -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="images/small_slider_bg.jpg" alt="" />
+                                </div>
+                                <div class="item">
+                                    <img src="images/small_slider_bg.jpg" alt="" />
+                                </div>
+                                <div class="item">
+                                    <img src="images/small_slider_bg.jpg" alt="" />
+                                </div>
+                            </div><!-- carousel inner end -->
+                        </div><!-- Carousel end-->
+                    </div>
+                </div><!-- second section end -->
+
+                
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                    
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/large_slider_img.jpg" alt="Burger">
+
+                            <div class="carousel-caption">
+                                <h2>Exos uvci</h2>
+                                <h3>Siège Garba</h3>
+
+                                
+                                    <p> Burger de bouake </ p>
+
+                                <div class="info_btn_shadow">
+                                    <a href="" class="info_btn">info & nutrition</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/large_slider_img.jpg" alt="Burger">
+
+                            <div class="carousel-caption">
+                                <h2>Cheddar JUnky</h2>
+                                <h3>Stuffed Burgers</h3>
+
+
+                                    <p></ p>
+
+                                <div class="info_btn_shadow">
+                                    <a href="" class="info_btn">info & nutrition</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/large_slider_img.jpg" alt="Burger">
+
+                            <div class="carousel-caption">
+                                <h2>Exos uvci</h2>
+                                <h3>Garba</h3>
+
+
+                                  
+
+                                <div class="info_btn_shadow">
+                                    <a href="" class="info_btn">info & nutrition</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- carousel inner end -->
+                </div><!-- Carousel end-->
+
+                <!-- Forth section -->
+                <div class="row forth_sec">
+                    <div class="col-sm-4">
+                        <div class="menu">
+                            <div class="inner_content">
+                                <span class="flaticon flaticon-burger"></span>
+                                <h2>menu</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="drinks">
+                            <div class="inner_content">
+                                <span class="flaticon flaticon-drink"></span>
+                                <h2>drinks</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="sides">
+                            <div class="inner_content">
+                                <span class="flaticon flaticon-food"></span>
+                                <h2>sides</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- forth section end -->
+            </div>
+        </section><!-- Block Content end-->
+
+   <br><br><br><br><br>
+        <!-- Footer -->
+        <footer>
+            <!-- Container -->
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                        <div class="subscribe">
+                             <h2> Contactez exos uvci </ h2>
+                              <p> </ p>
+
+                            <form role="form">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="em" placeholder="Enter your e-mail here">
+                                        <span class="input-group-btn">
+                                            <button type="submit" class="btn send_btn">
+                                                <i class="glyphicon glyphicon-send"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                        <div class="contact_us">
+                            <h4>Notre email</h4>
+                            <a href="">info@guitinnin.com</a>
+
+                            <address>
+                                adjame 220<br />
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-4 col-xs-12 pull-right">
+                        <div class="basic_info">
+                            <a href=""><img class="footer_logo" src="images/log.png" alt="Burger" /></a>
+
+                            <ul class="list-inline social">
+                                <li><a href="" class="fa fa-facebook"></a></li>
+                                <li><a href="" class="fa fa-twitter"></a></li>
+                                <li><a href="" class="fa fa-instagram"></a></li>
+                            </ul>
+
+                            <div class="footer-copyright">
+                                <p class="wow fadeInRight" data-wow-duration="1s">
+avec 
+                                    <i class="fa fa-heart"></i>
+                                    by 
+                                    <a target="_blank" href="http://bootstrapthemes.co">Exos uvci</a> <br /> 
+                                    2019. Tous reservé 
+                                </p>
+                            </div>					
+                        </div>
+                    </div>
+
+                </div>
+            </div><!-- Container end -->
+        </footer><!-- Footer end -->
+
+
+        <!-- scroll up-->
+        <div class="scrollup">
+            <a href="#"><i class="fa fa-chevron-up"></i></a>
+        </div><!-- End off scroll up->
+
+        <!-- JavaScript -->
+        <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>		
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+     
+        
+
+ 
+        
+
+        <!--main js-->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>	
+</html>	
